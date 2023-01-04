@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Javascript  for in loop statment</title>
+        <link  rel="stylesheet" href="./css/style.css">
+        <script>
+            //before the closing of head tag
+        </script>
+    </head>
+    <body>
+        <ul class="myul"></ul>
+        
+        <script src="./js/script.js"></script>
+        <script>
+            //before the closing of body tag
+            var student1 = {
+                //property:value //  key:value
+                name: "suryabhan",  //string data type
+                surnam: 'singh',  //string data type
+                address:"26 jawahar nagr neemuch",  //string data type
+                contact:9131425761,  //number value
+                friends:['gautham',"vishnu"],  // Array
+            };   // this is javascript object
+            //javascript object content has two members
+            //1.property:value
+            //2.method
+            /*
+            for (key in object) {
+                // code block to be executed
+            }
+            */
+           for ( students in student1 ){   // key is a js properties
+          // console.log(student1[`${key}`])  // object["property"]  //variabal subsictution
+            console.log(student1[students]);  // object[expression]
+           }
+           
+           
+        </script>
+        <script>
+            // for of statment
+            
+          
+
+            let name="anil dollor";  // string is an iterable object
+            /*
+                for (variable of iterable) {
+                    //code block to be executed
+                }
+            */
+            for (suraj  of name ){
+              console.log(suraj)
+            }
+
+            let students = [' vishnu ',  ' suraj ', " sampat ",` gautham `];  // [] this is a arry
+             
+            for ( suraj of  students){
+                console.log(suraj);
+            }
+            
+
+        </script>
+    </body>
+</html>

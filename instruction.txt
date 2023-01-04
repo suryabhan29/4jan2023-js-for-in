@@ -1,0 +1,47 @@
+												Lecture 74 Javascript loop statment
+
+humare pas diffrent diffrent types ke loops he
+1.for
+2.for in  --> object he or uski property pr itracte krna ho
+3.for of
+4.while
+5.do while
+
+agr humko koi repiteded task karna he to hum loop statments ka use karte hain
+
+jb bhi humye js ke andar object mil jaye to hum for in ka use kregye
+
+javascript object = {}
+
+For in loop statement ka use jab karegye jab humare pas object ho or unki property pr loop lgana ho
+
+object ke andar ko chije rehti he 
+1.p:v
+2.method
+
+Array data type ek samay me ek se jiyada value ko content kar skta hain
+
+object ke andar p:v hoti he
+
+isko key:value bhi bol skte he
+
+property ko hum key bhi bol skte he
+
+how many ways to access the js object value?
+1.object.properties   [isme is . ko kehte he member selection operator]
+2.object["properties"]
+3.object [expression]
+													
+											for of
+
+
+
+
+
+
+
+
+
+
+
+
